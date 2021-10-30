@@ -1,0 +1,17 @@
+demo1:
+
+C:\Users\Jean\Desktop\Demos\DemoBasicLoader\bin\x64\Release\demo.exe notepad
+
+demo2: 
+C:\Users\Jean\Desktop\Demos\DemoEDR\x64\Release\SylantStrikeInject.exe --process=demo.exe --dll=C:\Users\Jean\Desktop\Demos\DemoEDR\x64\Release\SylantStrike.dll
+
+C:\Users\Jean\Desktop\Demos\DemoBasicLoader\bin\x64\Release\demo.exe notepad
+
+
+demo3:
+C:\Users\Jean\Desktop\Demos\DemoEDR\x64\Release\SylantStrikeInject.exe --process=demo.exe --dll=C:\Users\Jean\Desktop\Demos\DemoEDR\x64\Release\SylantStrike.dll
+C:\Users\Jean\Desktop\Demos\DemoMalwareProtect\bin\Release\DemoMalwareProtect.exe explorer C:\Users\Jean\Desktop\Demos\DemoBasicLoader\bin\x64\Release\demo.exe notepad
+
+demo4:
+C:\Users\Jean\Desktop\Demos\DemoEDR\x64\Release\SylantStrikeInject.exe --process=edrgoesbrrr.exe --dll=C:\Users\Jean\Desktop\Demos\DemoEDR\x64\Release\SylantStrike.dll
+C:\Users\Jean\Desktop\Demos\EDRGoesBrrr\bin\x64\Release\edrgoesbrrr.exe -p explorer -s notepad -sc
